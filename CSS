@@ -1,0 +1,178 @@
+.container-fluid {
+    background: url('https://cdn.wallpapersafari.com/84/90/wMjQ6k.png') no-repeat center;
+    background-size:100% 100%;
+}
+
+#plmeta {
+    margin-bottom: 30px;
+}
+
+#chatheader, #videowrap-header, #nav-collapsible {
+    background-color: #000080;
+}
+
+#userlisttoggle, #usercount, #currenttitle {
+    color: white;
+    margin-left: 3px;
+}
+
+#modflair, #chatline, #resize-video-smaller, #resize-video-larger, .btn-sm, #plmeta {
+    background-color: #c0c0c0 !important;
+    color: black;
+    background-image: none;
+}
+
+#resize-video-smaller {
+    margin: 1px 3px;
+}
+
+#resize-video-larger {
+    padding-left: 1px;
+    margin: 1px 0;
+}
+
+#modflair {
+    margin-right: 3px;
+}
+
+#userlist, #messagebuffer {
+    background-color: white;
+    color: black;
+}
+
+#mainpage {
+    background-color: #008080;
+}
+
+.embed-responsive-16by9 {
+    background-color: white;
+    border: 1px solid;
+}
+
+#footer {
+    display: none;
+}
+
+#wrap {
+    padding: 0;
+}
+
+#qlockbtn {
+    background-color: #ee5f5b !important;
+}
+
+.nick-hover {
+    background-color: #000080 !important;
+    color: white;
+}
+
+.folders {
+    position: relative;
+    width: 100%;
+    margin-left: -15px;
+    background-color: #008080;
+    padding-left: 15px;
+    display: flex;
+}
+
+.foldersList {
+    list-style: none;
+    padding: 0 0 15px 0;
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+}
+
+.folder98 {
+    cursor: pointer;
+}
+
+#notepad {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+    z-index: 10;
+}
+
+.foldersText {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    color: white;
+    padding-top: 10px;
+    MAX-WIDTH: 230px;
+    max-height: 110px;
+    overflow: hidden;
+}
+
+#messagebuffer {
+    font-family: 'Silkscreen', cursive;
+}
+
+.banner {
+    position: absolute;
+    z-index: 11;
+    font-size: 2.5rem;
+    color: black;
+    border: 1px solid #c0c0c0;
+    border-top: 17px solid #000080;
+    background-color: white;
+    left: 50%;
+    top: -90px;
+    margin-left: -168px;
+    width: 336px;
+    height: 74px;
+}
+
+.banner::before {
+    content: "banner.txt";
+    position: absolute;
+    color: white;
+    top: -17px;
+    font-size: 1.3rem;
+}
+
+#calc {
+   z-index:10;
+   display: none;
+   position: absolute;
+   left: 150px;
+}
+
+#internet {
+   z-index:15;
+   display: none;
+   position: absolute;
+   left: 230px;
+}
+
+.nick-highlight {
+    background-color: #ddffdd;
+}
+
+#main {
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        top: -120%;
+    }
+}
+
+@media (max-width: 800px) {
+    #main {
+        margin-top: 100px;
+    }
+
+    .banner {
+        top: -130%;
+    }
+}
+
+@media (max-width: 550px) {
+    .banner {
+        top: -140%;
+    }
+}
