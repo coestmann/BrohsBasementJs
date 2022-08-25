@@ -1,0 +1,407 @@
+#wrap {
+    background-color: #008080;
+}
+
+#plmeta {
+    margin-bottom: 50px;
+}
+
+#chatheader, #videowrap-header, #nav-collapsible {
+    background-color: #000080;
+}
+
+#userlisttoggle, #usercount, #currenttitle {
+    color: white;
+    margin-left: 3px;
+}
+
+#modflair, #chatline, #resize-video-smaller, #resize-video-larger, .btn-sm, #plmeta {
+    background-color: #c0c0c0 !important;
+    color: black;
+    background-image: none;
+}
+
+#resize-video-smaller {
+    margin: 1px 3px;
+}
+
+#resize-video-larger {
+    padding-left: 1px;
+    margin: 1px 0;
+}
+
+#modflair {
+    margin-right: 3px;
+}
+
+#userlist, #messagebuffer {
+    background-color: white;
+    color: black;
+}
+
+.embed-responsive-16by9 {
+    background-color: white;
+    border: 1px solid;
+}
+
+#footer {
+    display: none;
+}
+
+#wrap {
+    padding: 0;
+}
+
+#qlockbtn {
+    background-color: #ee5f5b !important;
+}
+
+.nick-hover {
+    background-color: #000080 !important;
+    color: white;
+}
+
+.folders {
+    position: relative;
+    width: 100%;
+    margin-left: -15px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.foldersList {
+    list-style: none;
+    padding: 0 0 15px 0;
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+}
+
+.folder98 {
+    cursor: pointer;
+}
+
+#notepad {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+    z-index: 10;
+}
+
+.foldersText {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    color: white;
+    padding-top: 10px;
+    MAX-WIDTH: 230px;
+    max-height: 110px;
+    overflow: hidden;
+}
+
+#messagebuffer {
+    font-family: 'Silkscreen', cursive;
+}
+
+.banner {
+    position: absolute;
+    z-index: 11;
+    font-size: 2.5rem;
+    color: black;
+    border: 1px solid #c0c0c0;
+    border-top: 17px solid #000080;
+    background-color: white;
+    left: 50%;
+    top: -90px;
+    margin-left: -168px;
+    width: 336px;
+    height: 74px;
+}
+
+.banner::before {
+    content: "banner.img";
+    position: absolute;
+    color: white;
+    top: -17px;
+    font-size: 1.3rem;
+}
+
+#calc {
+   z-index:10;
+   display: none;
+   position: absolute;
+   left: 150px;
+}
+
+#internet {
+   z-index:15;
+   display: none;
+   position: absolute;
+   left: 230px;
+}
+
+.nick-highlight {
+    background-color: #ddffdd;
+}
+
+#main {
+    position: relative;
+}
+
+#wideImage {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        top: -120%;
+    }
+}
+
+@media (max-width: 970px) {
+    #main {
+        margin-top: 100px;
+    }
+
+    .banner {
+        top: -125%;
+    }
+}
+
+@media (max-width: 650px) {
+    .banner {
+        top: -135%;
+    }
+}
+
+@media (min-width: 1650px) {
+    .banner {
+        width: 900px;
+        margin-left: -450px;
+    }
+
+    #narrowImage {
+        display: none;
+    }
+
+    #wideImage {
+        display: block;
+    }
+}
+
+#toolbar{
+    background: #c0c0c0;
+    height: 35px;
+    width: 100vw;
+    /* margin-left: -15px; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #fff;
+}
+
+.toolbar-start-menu{
+    float: left;
+}
+
+.start-button{
+    background: url(https://win98icons.alexmeub.com/icons/png/windows-0.png) no-repeat 2px center / 24px;
+    padding-left: 28px;
+    padding-right: 5px;
+    height: 29px;
+    margin: 2px 3px;
+    font-weight: bold;
+    border: 2px solid #7c7c7c;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    color: black;
+}
+
+.start-button:hover{
+        background-color: darken(#c0c0c0, 10%);
+}
+
+
+.toolbar-separator{
+    width: 2px;
+    height: 26px;
+    margin-top: 2px;
+    background: #797979;
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+.toolbar-left{
+    float: left;
+    padding: 0 5px;
+}
+
+.toolbar-icon{
+    background: no-repeat center / auto 20px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-top: 3px;
+    margin: 3px 2px;
+}
+
+.toolbar-icon.ie{
+    background-image: url(https://win98icons.alexmeub.com/icons/png/msie1-4.png);
+}
+
+.toolbar-icon.outlook{
+    background-image: url(https://win98icons.alexmeub.com/icons/png/outlook_express-0.png);
+}
+
+.toolbar-icon.desktop{
+    background-image: url(https://win98icons.alexmeub.com/icons/png/desktop-4.png);
+}
+
+.toolbar-icon.channels{
+    background-image: url(https://win98icons.alexmeub.com/icons/png/channels-5.png);
+}
+
+.toolbar-right{
+    float: right;
+    margin: 2px 3px;
+    height: 29px;
+    border: 2px solid #7c7c7c;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+.time{
+    padding: 3px 10px;
+    color: black;
+}
+
+.window{
+    border: 2px solid #7c7c7c;
+    border-top-color: #fff;
+    border-bottom-color: #131313;
+    border-left-color: #fff;
+    background: #c0c0c0;
+    width: 90%;
+    max-width: 500px;
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    resize: both;
+    display: none;
+    z-index: 15;
+}
+
+.window-toolbar{
+      background: #000080;
+      color: #fff;
+      padding: 4px;
+      font-weight: bold;
+}   
+
+.window-buttons{
+      position: absolute;
+      right: 3px;
+      top: 5px;
+}
+
+.window-button{
+        background: no-repeat center #ccc;
+        border: 2px solid #7c7c7c;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        height: 17px;
+        width: 17px;
+        float: right;
+        margin-left: 2px;
+}
+
+.window-button.close{
+    background-image: url(https://win98icons.alexmeub.com/images/close-icon.png);
+    opacity: unset;
+}
+
+.window-button.help{
+    background-image: url(https://win98icons.alexmeub.com/images/question-icon.png);
+}
+
+.window-wrapper{
+      padding: 10px;
+}
+
+#windowList {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.windowLink {
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    display: block;
+    cursor: pointer;
+}
+
+.functionRowList {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.functionRowItem {
+    color: black;
+    margin-right: 10px;
+}
+
+.scheduleList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.scheduleItem {
+    color: white;
+    margin-right: 10px;
+}
+
+.window-wrapper.schedule {
+    background-color: black;
+}
+
+#schedule {
+    display: none;
+}
+
+.functionRowItem.addressLink {
+    background-color: white;
+    padding: 0 5px;
+    margin: 0;  
+    width: 100%;
+}
+
+.userlist_owner {
+    color: #ff9900;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.windowLink.twitter {
+    background-image: url(https://www.svgrepo.com/show/157806/instagram.svg);
+}
+
+.windowLink.twitter2 {
+    background-image: url(https://www.svgrepo.com/show/157806/instagram.svg);
+}
+
+.windowLink.twitter3 {
+    background-image: url(https://www.svgrepo.com/show/157806/instagram.svg);
+}
